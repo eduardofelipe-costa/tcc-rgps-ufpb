@@ -1,6 +1,6 @@
 # IMPORTAÇÃO DOS DADOS
-setwd("C:/Users/LABOAA 004/Desktop/Modelagem_TCC")
-dados <- read.table("dados_eduardo.txt", h = TRUE, dec = ",")
+setwd("SEU_DIRETORIO_AQUI")
+dados <- read.table("base_dados.txt", h = TRUE, dec = ",")
 str(dados)
 attach(dados)
 names(dados)
